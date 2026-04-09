@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandelbrot Zoom</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0020;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: monospace;
+      color: #ff66ff;
+    }
+    h1 { margin-bottom: 10px; }
+    img { max-width: 90vw; max-height: 85vh; border: 2px solid #8000ff; border-radius: 8px; }
+    p { color: #00ccff; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Mandelbrot Zoom</h1>
+  <p>z<sub>n+1</sub> = z<sub>n</sub>&sup2; + c</p>
+  <img src="mandelbrot_zoom.gif" alt="Mandelbrot Zoom Animation">
+</body>
+</html>
