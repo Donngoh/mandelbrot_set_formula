@@ -15,3 +15,6 @@ If you work it out, you'll see that all values between -1 and 1 (including those
 Even though the border isn't particularly interesting, it's cool that you can zoom in arbitrarily close to it. It's just too bad that it happens to always look the same no matter how much zooming in you do lol!
 
 The Mandelbroit set is basically that, but in a 2D space and with an infinitely intricate border.
+---------------------------------------------------------------------------------------------------
+Note: I thought I could loop it recursively (to limit number of frames) if the last few frames to first were visually same to mimic the perpetual zoom phenomenon,
+but I realised there is a difference between exact vs quasi self-similarity so I'm not able to do it mathematically and my machine will hit precision limits for longer zooms.
